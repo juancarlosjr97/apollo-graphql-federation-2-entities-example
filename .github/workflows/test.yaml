@@ -1,0 +1,32 @@
+---
+name: Tests
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - name: Start docker container
+        run: docker compose up -d
+
+      - name: Sleep for 30
+        run: sleep 30s
+        shell: bash
+
+      - name: Test
+        run: npm run test
