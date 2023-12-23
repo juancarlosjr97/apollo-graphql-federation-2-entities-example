@@ -1,0 +1,63 @@
+version: "3.9"
+services:
+  subgraph-a:
+    container_name: subgraph-a
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./packages/subgraph-a:/usr/src/app
+    environment:
+      - PORT=4001
+    ports:
+      - 4001:4001
+    networks:
+      - apollo
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  subgraph-b:
+    container_name: subgraph-b
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./packages/subgraph-b:/usr/src/app
+    environment:
+      - PORT=4002
+    ports:
+      - 4002:4002
+    networks:
+      - apollo
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  gateway:
+    container_name: gateway
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./packages/gateway:/usr/src/app
+    environment:
+      - PORT=4000
+      - SUBGRAPH_A_ENDPOINT=http://subgraph-a:4001/graphql
+      - SUBGRAPH_B_ENDPOINT=http://subgraph-b:4002/graphql
+    ports:
+      - 4000:4000
+    depends_on:
+      - subgraph-a
+      - subgraph-b
+    networks:
+      - apollo
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+networks:
+  apollo:
