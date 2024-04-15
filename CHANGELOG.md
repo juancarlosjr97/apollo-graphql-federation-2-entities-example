@@ -3,6 +3,13 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.32](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.31...1.1.32) (2024-04-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @apollo/server to v4.10.3 ([ca2dc24](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/ca2dc24b3649787e5fc399a08dec948b089d495b))
+
 ## [1.1.31](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.30...1.1.31) (2024-04-12)
 
 
