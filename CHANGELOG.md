@@ -3,6 +3,13 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.74](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.73...1.1.74) (2024-08-13)
+
+
+### Chores
+
+* **deps:** update node:20.16.0 docker digest to b6778b0 ([70493ca](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/70493ca1b2936b5cf13077e93738f5511e6511bd))
+
 ## [1.1.73](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.72...1.1.73) (2024-08-08)
 
 
