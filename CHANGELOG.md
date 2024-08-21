@@ -3,6 +3,13 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.76](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.75...1.1.76) (2024-08-21)
+
+
+### Chores
+
+* **deps:** update dependency node to v20.17.0 ([e8751d7](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/e8751d7d777b0a2b5ed23e28670667ae705765c0))
+
 ## [1.1.75](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.74...1.1.75) (2024-08-13)
 
 
