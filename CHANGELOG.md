@@ -3,6 +3,13 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.89](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.88...1.1.89) (2024-09-28)
+
+
+### Chores
+
+* **deps:** update node.js to db5dd2f ([81ee9d0](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/81ee9d0ff9dd44925d2235180326313f496b69cb))
+
 ## [1.1.88](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.87...1.1.88) (2024-09-28)
 
 
