@@ -3,6 +3,12 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.94](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.93...1.1.94) (2024-10-11)
+
+### Chores
+
+* **deps:** update dependency @release-it/conventional-changelog to v9 ([49f5141](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/49f51415d93a7bf150b6153b8cfa4f08f301197d))
+
 ## [1.1.93](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.92...1.1.93) (2024-10-09)
 
 
