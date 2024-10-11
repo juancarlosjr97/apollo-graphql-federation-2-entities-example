@@ -12,7 +12,7 @@
     "packages/**"
   ],
   "devDependencies": {
-    "@release-it/conventional-changelog": "^8.0.1",
+    "@release-it/conventional-changelog": "^9.0.0",
     "graphql-tag": "^2.12.6",
     "jest": "^29.7.0",
     "release-it": "^17.0.1"
