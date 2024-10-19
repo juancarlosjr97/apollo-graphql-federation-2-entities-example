@@ -3,6 +3,12 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.98](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.97...1.1.98) (2024-10-19)
+
+### Chores
+
+* **deps:** update node.js to d7c25db ([92ddee3](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/92ddee3911aee9562e524c05c084cc0371ab9633))
+
 ## [1.1.97](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.96...1.1.97) (2024-10-17)
 
 ### Chores
