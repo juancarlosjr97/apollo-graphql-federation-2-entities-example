@@ -3,6 +3,12 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.99](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.98...1.1.99) (2024-10-20)
+
+### Chores
+
+* **deps:** update node.js to a5e0ed5 ([58a01ef](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/58a01efc9d5e5b0e3bbad1eb004a90d00c7e0771))
+
 ## [1.1.98](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.97...1.1.98) (2024-10-19)
 
 ### Chores
