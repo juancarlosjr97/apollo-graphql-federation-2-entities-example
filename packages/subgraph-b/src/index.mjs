@@ -15,6 +15,7 @@ const typeDefs = gql`
     id: String! @external
     language: Language @inaccessible
     meta: String
+    total: Total
   }
 
   enum Code {
@@ -25,6 +26,14 @@ const typeDefs = gql`
     EN
     ES
   }
+
+  type Total {
+    extendedPrice: Money
+  }
+
+  type Money {
+    formattedAmount: String
+  }
 `;
 
 const resolvers = {
@@ -32,7 +41,31 @@ const resolvers = {
     __resolveReference({ id, code, language }) {
       return {
         meta: `ID: ${id} - Code: ${code} - Language: ${language}`,
+        total: {
+          extendedPrice: "original",
+        },
       };
+    },
+  },
+  Money: {
+    formattedAmount: (parentValue, __, ____, { variableValues }) => {
+      /**
+       * `parentValue` represents the hardcoded value on line 45, which is `original`.
+       *
+       * `variableValues` is in the format of `{ representations: [Values from @key] }`. For example:
+       * `{"representations":[{"__typename":"Data","code":"JCBD","id":"TheOnlyOne","language":"EN"}]}`
+       *
+       * Given `variableValues` does not represent a single value but rather a list from all the responses.
+       */
+
+      /**
+       * How can I identify the parent values that are from the parent from `variableValues`?
+       *
+       * In other words, how can I return a formatted value for languages UK and ES
+       * if I do not which index is getting processed.
+       */
+      console.log(JSON.stringify({ parentValue, variableValues }, null, 4));
+      return "formattedAmount";
     },
   },
 };

@@ -11,7 +11,7 @@ const typeDefs = gql`
     )
 
   type Query {
-    data(code: Code!, id: String!, language: Language = "EN"): Data
+    data(code: Code!, id: String!, language: Language = "EN"): [Data]
   }
 
   type Data @shareable @key(fields: "code id language") {
@@ -33,12 +33,20 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    data: (_, { id, code, language }) => ({
-      code,
-      id,
-      language,
-      nickname: "JC",
-    }),
+    data: (_, { id, code, language }) => [
+      {
+        code,
+        id,
+        language,
+        nickname: "JC - Index 0",
+      },
+      {
+        code,
+        id,
+        language: "ES",
+        nickname: "JC - Index 1",
+      },
+    ],
   },
 };
 

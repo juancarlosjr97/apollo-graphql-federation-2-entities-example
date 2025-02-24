@@ -85,7 +85,7 @@ The `meta` field in Subgraph B is dynamically resolved by the resolver at [index
 To run GraphQL Federation, execute the following command:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 Once the two subgraphs and the gateway are ready, you can access the Apollo Gateway at http://localhost:4000 in your web browser to run the queries.
