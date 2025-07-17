@@ -1,7 +1,7 @@
 {
   "name": "subgraph-b",
   "dependencies": {
-    "@apollo/server": "4.12.2",
+    "@apollo/server": "5.0.0",
     "@apollo/subgraph": "2.11.2",
     "graphql-tag": "2.12.6"
   }
