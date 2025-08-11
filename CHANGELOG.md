@@ -3,6 +3,12 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.165](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.164...1.1.165) (2025-08-11)
+
+### Chores
+
+* **deps:** update actions/checkout action to v5 ([#168](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/issues/168)) ([a63ec96](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/commit/a63ec96531f7df94af1d89acf1204ed2da6afde5))
+
 ## [1.1.164](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.163...1.1.164) (2025-08-04)
 
 ### Chores
