@@ -3,6 +3,8 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.191](///compare/1.1.190...1.1.191) (2025-11-17)
+
 ## [1.1.190](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.189...1.1.190) (2025-11-14)
 
 ### Bug Fixes
