@@ -3,6 +3,12 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.194](///compare/1.1.193...1.1.194) (2025-11-22)
+
+### Bug Fixes
+
+* **deps:** update dependency @apollo/server to v5.2.0 ([#197](undefined/undefined/undefined/issues/197)) 306f06a
+
 ## [1.1.193](///compare/1.1.192...1.1.193) (2025-11-20)
 
 ## [1.1.192](///compare/1.1.191...1.1.192) (2025-11-19)
