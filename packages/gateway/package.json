@@ -2,6 +2,6 @@
   "name": "gateway",
   "dependencies": {
     "@apollo/gateway": "2.12.1",
-    "@apollo/server": "5.1.0"
+    "@apollo/server": "5.2.0"
   }
 }
