@@ -3,6 +3,12 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.195](///compare/1.1.194...1.1.195) (2025-12-09)
+
+### Bug Fixes
+
+* **deps:** update all dependencies ([#198](undefined/undefined/undefined/issues/198)) 6408084
+
 ## [1.1.194](///compare/1.1.193...1.1.194) (2025-11-22)
 
 ### Bug Fixes
