@@ -3,6 +3,8 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.196](///compare/1.1.195...1.1.196) (2025-12-10)
+
 ## [1.1.195](///compare/1.1.194...1.1.195) (2025-12-09)
 
 ### Bug Fixes
