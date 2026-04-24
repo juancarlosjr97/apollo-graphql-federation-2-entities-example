@@ -3,6 +3,8 @@
 This changelog is updated automatically using release-it.
 
 
+## [1.1.227](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.226...1.1.227) (2026-04-24)
+
 ## [1.1.226](https://github.com/juancarlosjr97/apollo-graphql-federation-2-entities-example/compare/1.1.225...1.1.226) (2026-04-08)
 
 ### Chores
